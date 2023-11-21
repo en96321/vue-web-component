@@ -1,4 +1,4 @@
-# Bun + Vue 3 + Vite + web component
+# Bun + Vue 3 + Vite + web component + tailwind
 
 requirment: bun >= 1.0.13
 

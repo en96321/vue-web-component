@@ -12,6 +12,9 @@
     "@unplugin-vue-ce/sub-style": "^1.0.0-beta.17",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "add": "^2.0.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
     "unplugin-vue-ce": "^1.0.0-beta.17",
     "vue": "^3.3.8",
     "vue-router": "4"

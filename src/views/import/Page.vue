@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-bold underline text-3xl">
     Test import *.ce.vue
     兩秒後改變資料
     <BVue :name="name" :message="message" :user="user" :users="users"/>

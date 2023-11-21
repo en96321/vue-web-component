@@ -1,6 +1,6 @@
 <template>
   <div class="apollo-button">
-    <button class="button" @click.stop="onClick">
+    <button class="button bg-red-400" @click.stop="onClick">
       <slot />
     </button>
   </div>

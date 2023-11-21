@@ -15,5 +15,8 @@ const onClick = ({ event, data }) => {
 
 <style>
 @import "../components/button.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 </style>
