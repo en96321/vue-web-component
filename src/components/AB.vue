@@ -7,7 +7,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import B from './B.ce.vue'
+import B from './B.vue'
 
 const props = defineProps({
   name: String,

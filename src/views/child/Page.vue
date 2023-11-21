@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>web component內含有vue子元件，子元件應吃得到資料</h1>
-    <child-ab :name="name" :user="user" :message="message" :users="users"/>
+    <apollo-ab :name="name" :user="user" :message="message" :users="users"/>
   </div>
 </template>
 

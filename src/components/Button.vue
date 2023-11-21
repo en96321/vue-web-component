@@ -11,7 +11,7 @@
 const emit = defineEmits(['click'])
 
 const onClick = (e) => {
-  emit('click', e)
+  emit('click', { event: e, data: 1 })
 }
 
 </script>

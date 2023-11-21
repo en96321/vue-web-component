@@ -6,8 +6,10 @@
 <script setup>
 import VueButton from '../components/Button.vue'
 
-const onClick = () => {
-  alert('test')
+const emit = defineEmits(['click'])
+
+const onClick = ({ event, data }) => {
+  emit('click', { event, data })
 }
 </script>
 

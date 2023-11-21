@@ -13,7 +13,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import Model from '../../components/Model.ce.vue'
+import Model from '../../components/Model.vue'
 
 const title = ref('parent model value')
 const title2 = ref('parent model value')

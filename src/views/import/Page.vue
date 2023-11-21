@@ -2,12 +2,13 @@
   <div>
     Test import *.ce.vue
     兩秒後改變資料
-    <import-b :name="name" :message="message" :user="user" :users="users"/>
+    <BVue :name="name" :message="message" :user="user" :users="users"/>
   </div>
 </template>
 
 <script setup>
 import { ref, reactive } from 'vue'
+import BVue from '../../components/B.vue'
 
 const name = ref('test')
 const message = ref('message')

@@ -23,10 +23,11 @@
 </template>
 
 <script setup>
-import VueCEButton from '../../package/Button.ce.vue'
+import VueCEButton from '../../package/Button.vue'
 import VueButton from '../../components/Button.vue'
 
-const onClick = (e) => {
+const onClick = (data) => {
+  console.log(data)
   alert('按下')
 }
 
